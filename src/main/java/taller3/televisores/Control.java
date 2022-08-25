@@ -4,7 +4,7 @@ public class Control {
 	private TV tv;
 
 	public TV getTv() {
-		return tv;s
+		return tv;
 	}
 
 	public void setTv(TV tv) {
