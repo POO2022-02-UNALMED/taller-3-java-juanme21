@@ -29,7 +29,7 @@ public class Control {
 	
 
 	public void setCanal(int canal) {
-		if(tv.getCanal()<=120 && tv.getCanal()>1 && tv.getEstado()) {
+		if(canal<=120 && canal>0 && tv.getEstado()) {
 			tv.setCanal(canal);
 		}
 	}
